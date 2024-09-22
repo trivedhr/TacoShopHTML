@@ -1,0 +1,12 @@
+HTML
+Hyper Text Markup Language
+Annotate Text image
+
+Download
+Visual Studio Code
+Click on extensions
+live server
+
+Download Browser
+
+create index.html file by clicking new file

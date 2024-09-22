@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <article id="contact">
+                <h2>Contact Me</h2>
+                <p>I'd really like to hear from you!</p>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <p>
+                            <tr>
+                                <td>
+                                    <label for="firstName">First Name</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="firstName"
+                                        id="id_txt_firstName"
+                                        placeholder="James" autocomplete="on"
+                                        required
+                                        autofocus>
+                                </td>
+                            </tr>
+                        </p>
+                        <p>
+                            <label for="lastname" id="for">LastName</label>
+                            <input type="text" name="lastname"
+                                id="id_txt_lastname"
+                                placeholder="Doe" autocomplete="on"
+                                required>
+                        </p>
+                        <p>
+                            <label for="password" id="for">Password</label>
+                            <input type="password" name="password"
+                                id="id_pass_input" required
+                                placeholder="********">
+                        </p>
+                        <p>
+                            <label for="phone">phone</label>
+                            <input type="tel" name="phone" id="id_input_phone"
+                                pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required"
+                                placeholder="234-569-7845">
+                        </p>
+                        <p>
+                            <label for="favorite_decade">Favorite Decade</label>
+                            <input type="number" name="favorite_decade"
+                                min="1950"
+                                max="2020" step="10"
+                                value="1980">
+                        </p>
+                        <p>
+                            <label for="coffee">Favorite Drink</label>
+                            <select name="coffee" id="id_drinks">
+                                <optgroup label="Coffee">
+                                    <option value="Coffee">Coffee</option>
+                                    <option value="Cappuccino"
+                                        selected>Cappuccino</option>
+                                </optgroup>
+                                <optgroup label="Tea">
+                                    <option value="Tea">Tea</option>
+                                    <option value="BlackTea">Black
+                                        Tea</option>
+                                </optgroup>
+                                <optgroup label="ColdDrinks">
+                                    <option value="pepsi">Pepsi</option>
+                                    <option value="limca">Limca</option>
+
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="favorite_season">Favorite Season</label>
+                            <input type="text" name="favorite_season"
+                                list="fav_season">
+                            <datalist id="fav_season">
+                                <option value="winter"></option>
+                                <option value="spring"></option>
+                                <option value="summer"></option>
+                                <option value="Rainy"></option>
+                            </datalist>
+
+                        </p>
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Favorite Food</legend>
+                    <p>
+
+                        <input type="radio"   value="Taco"
+                            name="food">
+                        <label for="Taco">Taco</label>
+                    </p>
+                    <p>
+                        <input type="radio"   value="Sub"
+                            name="food">
+                        <label for="Sub">Sub-SandWitch</label>
+                    </p>
+                    <p>
+                        <input type="radio"   value="Pizza"
+                            name="food">
+                        <label for="Pizza">Pizza</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Favorite Pets</legend>
+                    <p>
+                        <input type="checkbox" name="pets"  
+                            value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets"  
+                            value="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" 
+                            value="fish">
+                        <label for="fish">Fish</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" 
+                            value="OtherPet">
+                        <label for="other" id="for">OtherPet</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Send Me a Message!</legend>
+                    <p>
+                        <textarea name="message" id="id_txtarea_message" rows="10" cols="30" placeholder="Type your message!"></textarea>
+                    </p>
+                </fieldset>
+
+                <hr>
+                <button type="submit" value="submit" id="btn_submit">Send</button>
+                <button type="reset" value="reset">Reset</button>
+                </form>
+
+            </article>
+        </main>
+    </body>
+</html>

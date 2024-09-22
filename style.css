@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+  margin: 10px;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+
+}
+
+#id_h1_news {
+  background-color: blue;
+  color: white;
+
+
+}
+
+p {
+  color: aliceblue;
+}
+
+.class_div_learnhtml {
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+#div_id_bottom_bar {
+  border: 2px dotted white;
+  border-radius: 10px;
+
+}
+
+.class_div_sports {
+  border: 2px solid red;
+  border-radius: 10px;
+
+}
+
+.class_div_discriptionlist {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.class_img {
+  width: 200px;
+  height: 200px;
+}
+
+.class_table,
+.class_table caption {
+  border-collapse: collapse;
+
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #eee;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
